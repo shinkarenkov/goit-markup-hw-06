@@ -840,8 +840,9 @@ letter-spacing: 0.02em;
 
 
 
-.modal-input-icon{
+.modal-input-icon{ 
     position: relative;
+    display: block;
 }
 .input-icon{
     position: absolute;
