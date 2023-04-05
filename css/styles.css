@@ -768,7 +768,6 @@ letter-spacing: 0.02em;
 }
 
 .modal-btn{
-    align-self: center;
     margin-left: auto;
     margin-right: auto;
     color: var(--standart-wite);
