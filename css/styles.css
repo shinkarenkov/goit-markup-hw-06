@@ -563,7 +563,7 @@ color: var(--fotter-span);
 .soc-list-footer{
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
     margin-top: 16px;
     
 }
@@ -622,7 +622,7 @@ color: var(--fotter-span);
     transition: background-color var(--transform), color var(--transform);
 
     cursor: pointer;
-    min-width: 169px;
+    max-width: 165px;
     max-height: 40px;
     padding: 16px 32px;
     margin-left: 24px;
@@ -632,6 +632,7 @@ color: var(--fotter-span);
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .btn-footer:hover,
@@ -653,8 +654,10 @@ color: var(--fotter-span);
 }
 
 .icon-send{
+    display: block;
 fill: var(--standart-wite);
-align-items: center;
+width: 24px;
+height: 24px;
 margin-left: 16px;
 
 }
@@ -664,7 +667,7 @@ width: 264px;
 height: 40px;
 margin: 0;
 padding-left: 16px;
-background-color: rgba(255, 255, 255, 0.3);
+background-color: var(--bcg-color);
 border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
